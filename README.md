@@ -15,3 +15,7 @@ WHEN I click the save button for that time block
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
+![Image 1](Screen%20Shot%202022-09-01%20at%2012.10.22%20PM.png)
+![Image 2](Screen%20Shot%202022-09-01%20at%2012.10.31%20PM.png)
+![Image 3](Screen%20Shot%202022-09-01%20at%2012.10.34%20PM.png)
+![Image 4](Screen%20Shot%202022-09-01%20at%2012.10.44%20PM.png)
