@@ -5,7 +5,7 @@ $("#currentDay").html(todayDate);
 $(document).ready(function () {
     // save button listener
     $(".saveBtn").on("click", function () {
-        // Get nearby values of the description in JQuery
+        //  get values of the descrip in JQuery
         var text = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
 
@@ -21,7 +21,7 @@ $(document).ready(function () {
         $(".time-block").each(function () {
             var blockTime = parseInt($(this).attr("id").split("hour")[1]);
 
-            // Check time and background
+            // check time and background color
             if (blockTime < timeNow) {
                 $(this).removeClass("future");
                 $(this).removeClass("present");
